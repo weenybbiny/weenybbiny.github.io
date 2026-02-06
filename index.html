@@ -3,77 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SN</title>
+    <title>형도나보고싶어해라</title>
     
     <!--<link rel="stylesheet" href="style.css">-->
     <style>
-      body{
-      	display: flex;
-      	min-height:100vh;
-      	justify-content: center;
-      	align-items: center;
-      	background: radial-gradient(circle at 50% 50%, #a5a9f4 0%, #c2c6f9 10%, #e9eaff 30%);
-      }
-      
-      svg{
-      	max-width: 70vw;
-      	max-height: 80vh;
-      	aspect-ratio: 1/1;
-      	#blobClip{
-          transform-origin: center;
-      		transition: ease-out transform .4s;
-      	}
-      	&:hover{
-      		#blobClip{
-      			transform: scale(1.15) translate(0%, 0%);
-      		}
-      		.text-content{
-      			fill: white;
-      			mix-blend-mode: overlay;
-      		}
-      	}
-      }
-      .text-content {
-      	font: 700 10px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      	letter-spacing: 1.25px;
-      	text-transform: uppercase;
-      	fill: black;
-      	mix-blend-mode: normal;
-      	transition: ease fill .5s;
-      }
-      
-      /*Dev*/
-      @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700");
-      #dev {
-      	font-family: "Montserrat", sans-serif;
-      	position: fixed;
-      	font-size: 14px;
-      	top: 10px;
-      	left: 10px;
-      	padding: 1em;
-      	color: #333;
-      	background-color: white;
-      	border-radius: 25px;
-      	cursor: pointer;
-      	a {
-      		text-decoration: none;
-      		font-weight: bold;
-      		color: #333;
-      		transition: ease all 0.4s;
-      		&:hover {
-      			color: #ef5350;
-      			text-decoration: underline;
-      		}
-      	}
-      	span {
-      		display: inline-block;
-      		transition: ease all 0.4s;
-      		color: pink;
-      		&:hover {
-      			transform: scale(1.2);
-      		}
-      	}
-      }
+        body{
+            display: flex;
+            min-height:100vh;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle at 50% 50%, #a5a9f4 0%, #c2c6f9 40%, #e9eaff 70%);
+        }
+        
+        svg{
+            max-width: 70vw;
+            max-height: 80vh;
+            aspect-ratio: 1/1;
+            #blobClip{
+              transform-origin: center;
+                transition: ease-out transform .4s;
+            }
+            &:hover{
+                #blobClip{
+                    transform: scale(1.15) translate(0%, 0%);
+                }
+                .text-content{
+                    fill: white;
+                    mix-blend-mode: overlay;
+                }
+            }
+        }
+        .text-content {
+            font: 700 10px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+            letter-spacing: 1.1px;
+            text-transform: uppercase;
+            fill: #333;
+            mix-blend-mode: normal;
+            transition: ease fill .5s;
+        }
+        
+        /*Dev*/
+        @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700");
+        #dev {
+            font-family: "Montserrat", sans-serif;
+            position: fixed;
+            font-size: 14px;
+            top: 10px;
+            left: 10px;
+            padding: 1em;
+            color: #333;
+            background-color: white;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        #dev a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #333;
+            transition: ease all 0.4s;
+            &:hover {
+                color: #ef5350;
+                text-decoration: none;
+            }
+        }
+        #dev span {
+            display: inline-block;
+            transition: ease all 0.4s;
+            color: pink;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
   
@@ -103,10 +103,10 @@
       />
       
       <text class="text-content">
-        <textPath href="#text" startOffset="0%">❤ HAPPY 200th DAY ❤ HAPPY 200th DAY ❤ HAPPY 200th DAY ❤ HAPPY 200th DAY
+        <textPath href="#text" startOffset="0%">❤ HAPPY 172nd DAY ❤ HAPPY 172nd DAY ❤ HAPPY 172nd DAY ❤ HAPPY 172nd DAY
           <animate attributeName="startOffset" from="0%" to="100%" dur="15s" repeatCount="indefinite" />
         </textPath>
-    		<textPath href="#text" startOffset="100%">❤ HAPPY 200th DAY ❤ HAPPY 200th DAY ❤ HAPPY 200th DAY ❤ HAPPY 200th DAY
+    		<textPath href="#text" startOffset="100%">❤ HAPPY 172nd DAY ❤ HAPPY 172nd DAY ❤ HAPPY 172nd DAY ❤ HAPPY 172nd DAY
           <animate attributeName="startOffset" from="-100%" to="0%" dur="15s" repeatCount="indefinite" />
         </textPath>
       </text>
